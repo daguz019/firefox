@@ -1,4 +1,5 @@
 # VERSION:        0.7
+# DOCKER-VERSION: 0.6.5
 # DESCRIPTION:    Create firefox container with its dependencies
 # AUTHOR:         Daniel Mizyrycki <daniel@dotcloud.com>
 # COMMENTS:
@@ -22,7 +23,6 @@
 #     -v /dev/snd:/dev/snd -lxc-conf='lxc.cgroup.devices.allow = c 116:* rwm' \
 #     -e DISPLAY=unix$DISPLAY firefox
 
-docker-version 0.6.5
 
 # Base docker image
 from tianon/debian:wheezy
